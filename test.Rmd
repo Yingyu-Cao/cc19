@@ -3,5 +3,6 @@
 
 ```{r}
 ## child doc
+test
 ```
 
