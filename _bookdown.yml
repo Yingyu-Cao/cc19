@@ -3,5 +3,28 @@ language:
   ui:
     chapter_name: "Chapter "
 delete_merged_file: true
-rmd_files: ["index.Rmd", 'sample_project.Rmd']
+rmd_files: [
+  # Part: Introduction
+  "index.Rmd", # instructions
+  'sample_project.Rmd',
+
+  # Part: Static Graphs
+  'ridgeline_plot.Rmd',
+  'likert_edav_info.Rmd',
+  'maps.Rmd',
+
+  # Part: Interactive Graphs
+  'a_tutorial_of_shiny.Rmd',
+
+  # Part: Other
+  'tinder_study.Rmd',
+  'wordcloud_tutorial.Rmd',
+
+  # Part: Links
+  'master_workshop.Rmd',
+  'master_cheat_sheet.Rmd',
+  'master_video.Rmd',
+  'master_translation.Rmd'
+
+]
 edit: https://github.com/jtr13/cc19/edit/master/%s
