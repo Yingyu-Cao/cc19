@@ -29,7 +29,6 @@ Imports:
   shiny,
   stringr,
   tidyverse,
-  tidyverse,
   vcd,
   viridis,
   wordcloud2
